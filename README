@@ -1,0 +1,39 @@
+# Workshop 3
+
+## Extension SIMD: SSEx
+----------------------
+## Practical exercise #1
+
+### To Compilation
+
+```bash
+gcc -o example_1 example_1.c -msse4
+```
+
+### Execution
+
+```bash
+./p1 10 12 74 12 52 31 40 18 23 37 05 31
+```
+
+### Example
+
+> ----Matrix 4x3----
+10 12 74 12 
+52 31 40 18 
+23 37 05 31
+
+##  Practical exercise #2
+
+### To Compilation
+
+```bash
+gcc -o example_2 example_2.c -msse4
+```
+
+### Execution
+
+```bash
+./example_2
+```
+
